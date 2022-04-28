@@ -1,0 +1,174 @@
+body {
+    background-image: url(/img/nathan-dumlao-6VhPY27jdps-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(94, 97, 93, 0.9);
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 3.125rem;
+}
+
+
+.showTotalAmountToPay {
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+}
+
+.totalTip, .billSplit, .totalAmount {
+    height: 130px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(/img/bob-ghost-ZmLXBRfjSpo-unsplash.jpg);
+    background-size: cover;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+}
+
+.par {
+    color: white;
+    margin-left: 30px;
+    font-size: 1.875rem;
+}
+
+.bill, .people {
+    margin-left: 35px;
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+    width: 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+
+}
+
+.addTip {
+    background-color: #78dec7;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    margin-left: 35px;
+    height: 40px;
+    background-color:black;
+    color: white;
+    cursor: pointer;
+    transition-duration: 1s;
+ }
+
+  .addTip:hover {
+    background-color: #B3541E;
+  }
+  
+  .btn {
+    background-color: #f7dbf0;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    margin-left: 35px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition-duration: 1s;
+  }
+
+  .btn:hover {
+    background-color: #B3541E;
+  }
+  
+  #tip {
+    font-family: 'Montserrat', sans-serif;
+    display: none;
+    width: 200px;
+    margin-left: 35px;
+    height: 30px;
+    border-radius: 20px;
+  }
+
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .fab {
+    padding: 10px;
+    color: black;
+  }
+
+@media all and (max-width: 800px) {
+.showTotalAmountToPay {
+    width: 40%;
+}
+
+.btn, .addTip {
+    font-size: 1.125rem;
+}
+
+  }  
+
+  @media all and (max-width: 500px) {
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.125rem;
+}
+
+.par {
+    font-size: 1.25rem;
+}
+
+.showTotalAmountToPay {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    width: 100%;
+}
+
+.totalTip {
+    width: 100px;
+}
+
+.billSplit {
+    width: 100px;
+}
+
+.totalAmount {
+    width: 100px;
+}
+
+  }

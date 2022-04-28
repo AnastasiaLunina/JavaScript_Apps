@@ -1,0 +1,91 @@
+body {
+    background-image: url('img/back.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+#header_container {
+    display: flex;
+    justify-content: center;
+}
+
+#header {
+    color: #F0F5F9;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#pictures {
+    width: 400px;
+    height: 700px;
+}
+
+.btn {
+    background-color: #1E2022;
+    color: #F0F5F9;
+    border: none;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.btn:hover {
+    background-color: #F0F5F9;
+    color: #1E2022;
+    transition-duration: 4s;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .fab {
+    padding: 10px;
+    color: #fff;
+  }
+
+@media all and (max-width: 800px) {
+    #container {
+        margin-top: 100px;
+    }
+
+    #header_container {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #header {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #pictures {
+        width: 300px;
+        height: 500px;
+   }
+
+   .btn {
+       font-size: 10px;
+   }
+}
+
+@media all and (max-width: 500px) {
+
+    #pictures {
+        width: 200px;
+        height: 400px;
+   }
+
+   .btn {
+       font-size: 10px;
+   }
+} 

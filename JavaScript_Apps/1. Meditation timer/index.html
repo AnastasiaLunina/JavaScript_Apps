@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="img/icon.png">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+      <title>Sounds</title>
+   </head>
+   <body>
+      <div class="header">
+         <h1>Choose the sound</h1>
+      </div>
+      <div class="btn-container">
+         <button class="btn">
+         <a href="waves/waves.html" target=”_blank”>Shhh...</a>
+         </button>
+         <button class="btn">
+         <a href="spring/spring.html" target=”_blank”>Tweet...</a>
+         </button>
+         <button class="btn">
+         <a href="cat/cat.html" target=”_blank”>Purr...</a>
+         </button>
+      </div>
+
+         <!-- <h2>Contact</h2> -->
+      <div class="contact-icons">
+          <a href="https://github.com/AnastasiaLunina" target="_blank"><i class="fab fa-github fa-xl"></i></a>
+          <a href="#home"><i class="fa-solid fa-house fab fa-xl"></i></a>
+      </div>
+
+
+      <!-- Animations -->
+      <script>
+         gsap.from(".btn", {opacity: 0, duration: 2, delay: 1, stagger: 0.6})
+         gsap.from("h1", {y:-30, opacity: 0, duration: 3, delay: 1})
+      </script>
+   </body>
+</html>

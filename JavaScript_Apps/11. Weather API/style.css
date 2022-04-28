@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    position: relative;
+    z-index: 0;
+  }
+  
+  body {
+    letter-spacing: 5px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    margin-top: 150px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .input {
+    background-color: rgba(142, 127, 161, 0.3);
+    border-radius: 20px;
+    border: 3px solid white;
+    padding: 15px;
+    font-size: 20px;
+  }
+  
+  #show {
+    font-size: 35px;
+    color: #000957;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  
+  .input:focus {
+    background-color: white;
+  }
+  
+  .when-where {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .city {
+    color: #fff;
+    font-size: 45px;
+  }
+  
+  .date {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .now {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .temperature {
+    color: #fff;
+    font-size: 80px;
+    font-weight: bold;
+    text-shadow: 5px 10px black;
+    margin: 0;
+  }
+  
+  .feels-like {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+  
+  .conditions {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .variations {
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+  }
+  
+  .fab {
+    padding: 10px;
+    color: #fff;
+  }
+  
+  @media all and (max-width: 500px) {
+    .temperature {
+      font-size: 50px;
+    }
+  
+    #show {
+      font-size: 25px;
+    }
+  }
+  

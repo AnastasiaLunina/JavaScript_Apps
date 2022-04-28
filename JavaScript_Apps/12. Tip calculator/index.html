@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="/img/dollar-coin.png">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+      <title>Tip calculator</title>
+   </head>
+   <body>
+      <div class="container">
+         <h1>Split The Bill</h1>
+      </div>
+      <div class="main">
+         <div class="showTotalAmountToPay">
+            <div class="billSplit">
+               <p>Bill</p>
+               <span>$</span>
+               <span class="dividedBill"></span>
+               <p>per</p>
+               <p>person</p>
+               <span></span>
+            </div>
+            <div class="totalTip">
+               <p>Tip</p>
+               <span>$</span>
+               <span class="dividedTip"></span>
+               <p>per</p>
+               <p>person</p>
+            </div>
+            <div class="totalAmount">
+               <p>Total</p>
+               <span>$</span>
+               <span class="billAndTip"></span>
+               <p>per</p>
+               <p>person</p>
+            </div>
+         </div>
+         <form>
+            <p class="par">Bill </p>
+            <span
+               >
+            <input type="text" placeholder="Bill" class="bill" />
+            </span>
+            <p class="par">Number of people</p>
+            <span>
+            <input type="text" placeholder="How many people" class="people" />
+            </span>
+            <p class="par">Did you like our service?</p>
+            <button class="addTip">Add a tip!</button>
+            <select id="tip">
+               <option disabled selected>Select an option</option>
+               <option value="0.30">Wow! 30% ❤️</option>
+               <option value="0.20">Good service! 20% 💛</option>
+               <option value="0.10">It was OK. 10% 😐</option>
+               <option value="0.00">No tip 🙅</option>
+            </select>
+            <button class="btn">Calculate</button>
+         </form>
+      </div>
+      <!-- <h2>Contact</h2> -->
+      <div class="contact-icons">
+         <a href="https://github.com/AnastasiaLunina" target="_blank"><i class="fab fa-github fa-xl"></i></a>
+            <a href="#home"><i class="fa-solid fa-house fab fa-xl"></i></a>
+      </div>
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="script.js"></script>
+   </body>
+</html>

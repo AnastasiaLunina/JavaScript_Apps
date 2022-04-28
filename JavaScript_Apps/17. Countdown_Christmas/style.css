@@ -1,0 +1,134 @@
+
+/* Snow Animation */
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(to bottom, rgba(117, 114, 113, 0.8) 10%, rgba(40, 49, 77, 0.8) 30%, rgba(29, 35, 71, 0.8) 50%, rgba(19, 25, 28, 0.8) 80%, rgba(15, 14, 14, .8) 100%), url(https://38.media.tumblr.com/tumblr_m00c3czJkM1qbukryo1_500.gif); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: 9;
+  }
+  
+  body {
+    background-image: url(/img/kieran-white-SBdmQcW8qag-unsplash.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+   font-size: 70px;
+   font-family: 'Petit Formal Script', cursive;
+   color: rgb(240,236,243);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.christmas {
+    background-image: url(/img/sharon-mccutcheon-62vi3TG5EDg-unsplash.jpg);
+    background-size: cover;
+    opacity: .7;
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+    transition-duration: 3s;
+}
+
+.christmas:hover {
+    border-radius: 50% 0% 50% 0%;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+}
+
+.days, .hours, .minutes, .seconds {
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+}
+
+.background {
+    font-size: 40px;
+    border: none;
+    font-family: 'Cinzel', serif;
+    color: black;
+    background-image: url(/img/ian-schneider-PAykYb-8Er8-unsplash.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color: black;
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#myButton {
+    margin-left: 100px;
+    background: rgb(240,236,243);
+    background: linear-gradient(90deg, rgba(240,236,243,1) 0%, rgba(0,16,3,1) 50%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    z-index: 10;
+}
+
+@media all and (max-width: 800px) {
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.days, .hours, .minutes, .seconds {
+    font-size: 30px;
+}
+
+.christmas {
+    height: 200px;
+    width: 150px;
+    margin-top: 50px;
+    padding: 60px;
+}
+
+h3 {
+    font-size: 30px;
+}
+}
+
+@media all and (max-width: 500px) {
+.heading {
+    flex: 1;
+}
+
+h1 {
+    font-size: 40px;
+}
+}
+    

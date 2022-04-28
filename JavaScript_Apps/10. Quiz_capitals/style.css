@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.heading {
+    font-size: 45px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: rgb(254,253,255);
+    background: linear-gradient(90deg, rgba(254,253,255,1) 44%, rgba(0,16,3,1) 100%);
+    opacity: 0.8;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 550px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container_choice {
+    display: flex;
+    padding: 5px;
+}
+
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 40px 5px 0px 5px;
+    width: 420px;
+    text-align: center;
+}
+
+.answ:hover {
+    border: 2px solid #FFCC29;
+    color: #FFCC29;
+}
+
+.answ {
+    border: 2px solid black;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 10px 25px;
+    margin: 0px 8px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.btn {
+    background-color: #FFCC29;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 40px 5px 0px 5px;
+    width: 420px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+#show {
+    margin: auto;
+    margin-top: 10px;
+}
+
+.green {
+    color: green;
+    border-color: green;
+}
+
+.red {
+    color: red;
+    border-color: red;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .fab {
+    padding: 10px;
+    color: black;
+  }
+
+@media all and (max-width: 500px) {
+    form {
+        width: 400px;
+    }
+
+    label, .btn {
+        width: 350px;
+    }
+
+    .answ {
+        width: 150px;
+        font-size: 12px;
+    }
+} 

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+      <link rel="icon" type="image/x-icon" href="img/cupcake.png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,400&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+      <title>Mommy's kitchen</title>
+   </head>
+   <body>
+      <!-- Recipies -->
+      <div class="heading">
+         <h1>Mommy's kitchen.<span class="span-heading">From farm to table.</span></h1>
+         <!-- Timer -->
+         <div class="heading" id="container_main">
+            <h2 class="container-header" id="header">Set the cooking timer</h2>
+         </div>
+         <div class="container_input">
+            <div class="input">
+               <label>Minutes</label>
+               <input class="minutes" type="number" placeholder="0" maxlength="" size="2" min="0" id="minutes">
+            </div>
+            <div class="colon_container">
+               <p class="colon">:</p>
+            </div>
+            <div class="input">
+               <label>Seconds</label>
+               <input class="seconds" type="number" placeholder="00" maxlength="4" size="2" min="0" id="seconds">
+            </div>
+         </div>
+         <div class="btn_par_container" id="btn_par">
+            <div class="button_container">
+               <button class="button">Start</button>
+            </div>
+            <div id="container-countdown" class="center column">
+               <p class="countdown" id="countdown">0 : 00</p>
+            </div>
+         </div>
+         <audio id="player" controls>
+            <source src="https://cdn.glitch.global/120b8ed9-5a5e-475b-9afa-20ee050ac40e/mixkit-rooster-crowing-in-the-morning-2462.mp3?v=1649036073137" type="audio/mp3">
+         </audio>
+      </div>
+      </div>
+      <div class="contact-icons">
+         <a href="https://github.com/AnastasiaLunina" target="_blank"><i class="fab fa-github fa-xl"></i></a>
+         <a href="#home"><i class="fa-solid fa-house fab fa-xl"></i></a>
+      </div>
+      <div class="input-field">
+         <input id="search" type="text" placeholder="Search...">
+      </div>
+      <div class="container">
+         <div class="food">
+            <img src="/img/1.jpg" alt="food" width="300px" height="400px">
+            <p class="title">Egg sandwich</p>
+            <ul class="list">
+               <li>1 egg</li>
+               <li>1/2 teaspoon chipotle in adobo sause</li>
+               <li>2 slices sourdough bread</li>
+               <li>2 slices Cheddar</li>
+               <li>1 tablespoon unsalted butter</li>
+               <li>Handful baby spinach</li>
+            </ul>
+            <p class="btn_par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis corrupti accusantium quo. Perferendis, ducimus fuga! Autem assumenda quia animi modi. Iusto quod, exercitationem ipsam voluptate ex at eius deleniti! Dicta.</p>
+            <button class="btn" type="submit">Full recipe</button>
+         </div>
+         <div class="food">
+            <img src="/img/2.jpg" alt="food" width="300px" height="400px">
+            <p class="title">French toast</p>
+            <ul class="list">
+               <li>6 sick slices bread</li>
+               <li>2 eggs</li>
+               <li>2/3 cup milk</li>
+               <li>salt to taste</li>
+               <li>syrup of your choice</li>
+               <li>1 tablespoon butter room temperature</li>
+            </ul>
+            <p class="btn_par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi natus, nemo iste officiis doloribus, deleniti at veritatis sed aperiam autem deserunt distinctio qui odit nihil optio veniam, dignissimos illo!</p>
+            <button class="btn">Full recipe</button>
+         </div>
+         <div class="food">
+            <img src="/img/3.jpg" alt="food" width="300px" height="400px">
+            <p class="title">Oatmeal pancackes</p>
+            <ul class="list">
+               <li>1 cup old fashioned rolled oats</li>
+               <li>1 cup milk</li>
+               <li>2 large eggs</li>
+               <li>1 tablespoon brown sugar</li>
+               <li>2/3 cup whole wheat flour</li>
+               <li>1/4 teaspoon salt</li>
+            </ul>
+            <p class="btn_par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi natus, nemo iste officiis doloribus, deleniti at veritatis sed aperiam autem deserunt distinctio qui odit nihil optio veniam, dignissimos illo!</p>
+            <button class="btn">Full recipe</button>
+         </div>
+         <div class="food">
+            <img src="/img/4.jpg" alt="food" width="300px" height="400px">
+            <p class="title">Vanilla cake</p>
+            <ul class="list">
+               <li>4 large eggs</li>
+               <li>2 sticks butter</li>
+               <li>2 cups flour</li>
+               <li>2 tbsp baking powder</li>
+               <li>2 cups whipping cream</li>
+               <li>2 tbsp sugar</li>
+            </ul>
+            <p class="btn_par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi natus, nemo iste officiis doloribus, deleniti at veritatis sed aperiam autem deserunt distinctio qui odit nihil optio veniam, dignissimos illo!</p>
+            <button class="btn">Full recipe</button>
+         </div>
+         <div class="food">
+            <img src="/img/5.jpg" alt="food" width="300px" height="400px">
+            <p class="title">Almond flour pancackes</p>
+            <ul class="list">
+               <li>1 cup almond flour</li>
+               <li>1 teaspoon backing powder</li>
+               <li>1 cup almond milk</li>
+               <li>2 large eggs</li>
+               <li>1 tablespoon pure maple syrup</li>
+               <li>1/4 teaspoon salt</li>
+            </ul>
+            <p class="btn_par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi natus, nemo iste officiis doloribus, deleniti at veritatis sed aperiam autem deserunt distinctio qui odit nihil optio veniam, dignissimos illo!</p>
+            <button class="btn">Full recipe</button>
+         </div>
+         <div class="food">
+            <img src="/img/6.jpg" alt="food" width="300px" height="400px">
+            <p class="title">Four cheese pizza</p>
+            <ul class="list">
+               <li>1 cup warm water</li>
+               <li>10 ounces bread flour</li>
+               <li>2 teaspoons dry yeast</li>
+               <li>7 teaspoons olive oil</li>
+               <li>2 tablespoons chopped fresh chives</li>
+               <li>4 types of cheese of your choice</li>
+            </ul>
+            <p class="btn_par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi natus, nemo iste officiis doloribus, deleniti at veritatis sed aperiam autem deserunt distinctio qui odit nihil optio veniam, dignissimos illo!</p>
+            <button class="btn">Full recipe</button>
+         </div>
+         <div class="food">
+            <img src="/img/7.jpg" alt="food" width="300px" height="400px">
+            <p class="title">Creamy Roasted Pumpkin Soup</p>
+            <ul class="list">
+               <li>1/4 cup green pumpkin seeds</li>
+               <li>One 4-pound sugar pie pumpkin</li>
+               <li>4 large or 6 medium garlic cloves, minced</li>
+               <li>4 cups vegetable broth</li>
+               <li>½ cup full fat coconut milk or heavy cream</li>
+               <li>2 tablespoons maple syrup or honey</li>
+            </ul>
+            <p class="btn_par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi natus, nemo iste officiis doloribus, deleniti at veritatis sed aperiam autem deserunt distinctio qui odit nihil optio veniam, dignissimos illo!</p>
+            <button class="btn">Full recipe</button>
+         </div>
+         <div class="food">
+            <img src="/img/8.jpg" alt="food" width="300px" height="400px">
+            <p class="title">Greek salad</p>
+            <ul class="list">
+               <li>Tomatoes</li>
+               <li>Cucumbers</li>
+               <li>Onions</li>
+               <li>Olives</li>
+               <li>Creamy feta cheeser</li>
+               <li>Bell peppers</li>
+            </ul>
+            <p class="btn_par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi natus, nemo iste officiis doloribus, deleniti at veritatis sed aperiam autem deserunt distinctio qui odit nihil optio veniam, dignissimos illo!</p>
+            <button class="btn">Full recipe</button>
+         </div>
+         <div class="food">
+            <img src="/img/9.jpg" alt="food" width="300px" height="400px">
+            <p class="title">Beef meatballs</p>
+            <ul class="list">
+               <li>1 lb lean ground beef</li>
+               <li>1/2 cup bread crumbs</li>
+               <li>1/4 cup milk</li>
+               <li>1/2 teaspoon salt</li>
+               <li>1/4 teaspoon pepper</li>
+               <li>2 eggs</li>
+            </ul>
+            <p class="btn_par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi natus, nemo iste officiis doloribus, deleniti at veritatis sed aperiam autem deserunt distinctio qui odit nihil optio veniam, dignissimos illo!</p>
+            <button class="btn">Full recipe</button>
+         </div>
+         <div class="food">
+            <img src="/img/10.jpg" alt="food" width="300px" height="400px">
+            <p class="title">Apple pie</p>
+            <ul class="list">
+               <li>1/4 cup all-purpose flour</li>
+               <li>1/3 cup packed brown sugar</li>
+               <li>1 tablespoon butter</li>
+               <li>1 large egg white</li>
+               <li>6 to 7 cups thinly sliced peeled apples</li>
+               <li>1 tablespoon lemon juice</li>
+            </ul>
+            <p class="btn_par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi natus, nemo iste officiis doloribus, deleniti at veritatis sed aperiam autem deserunt distinctio qui odit nihil optio veniam, dignissimos illo!</p>
+            <button class="btn">Full recipe</button>
+         </div>
+         <div class="food">
+            <img src="/img/11.jpg" alt="food" width="300px" height="400px">
+            <p class="title">Seafood pasta</p>
+            <ul class="list">
+               <li>12 oz. spaghetti</li>
+               <li>1/2 lb. shrimp, peeled and deveined</li>
+               <li>3/4 cup milk</li>
+               <li>1/2 cup freshly grated Parmesan</li>
+               <li>1 cup chopped tomatoes</li>
+               <li>3 cloves garlic, minced</li>
+            </ul>
+            <p class="btn_par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi natus, nemo iste officiis doloribus, deleniti at veritatis sed aperiam autem deserunt distinctio qui odit nihil optio veniam, dignissimos illo!</p>
+            <button class="btn">Full recipe</button>
+         </div>
+         <div class="food">
+            <img src="/img/12.jpg" alt="food" width="300px" height="400px">
+            <p class="title">Beef Stroganoff</p>
+            <ul class="list">
+               <li>1.2 lb scotch fillet steak</li>
+               <li>2 tbsp vegetable oil</li>
+               <li>1 large onion</li>
+               <li>2 cups / 500 ml beef broth</li>
+               <li>Salt and pepper</li>
+               <li>1 tbsp Dijon mustard</li>
+            </ul>
+            <p class="btn_par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi natus, nemo iste officiis doloribus, deleniti at veritatis sed aperiam autem deserunt distinctio qui odit nihil optio veniam, dignissimos illo!</p>
+            <button class="btn">Full recipe</button>
+         </div>
+         <div class="food">
+            <img src="/img/13.jpg" alt="food" width="300px" height="400px">
+            <p class="title">Asparagus Cheese Pie</p>
+            <ul class="list">
+               <li>8 ounces Gruyere cheese</li>
+               <li>2 cups fresh chopped asparagus</li>
+               <li>1/2 cup all-purpose flour</li>
+               <li>1 cup half-and-half</li>
+               <li>4 large eggs</li>
+               <li>Minced chives for garnish</li>
+            </ul>
+            <p class="btn_par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi natus, nemo iste officiis doloribus, deleniti at veritatis sed aperiam autem deserunt distinctio qui odit nihil optio veniam, dignissimos illo!</p>
+            <button class="btn">Full recipe</button>
+         </div>
+         <div class="food">
+            <img src="/img/14.jpg" alt="food" width="300px" height="400px">
+            <p class="title">Grilled salmon</p>
+            <ul class="list">
+               <li>1lbs. salmon fillet</li>
+               <li>¼ cup garlic powder</li>
+               <li>¼ cup kosher salt</li>
+               <li>¼ cup dried parsley</li>
+               <li>¼ cup dried minced onion</li>
+               <li>¼ cup dried basil</li>
+            </ul>
+            <p class="btn_par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi natus, nemo iste officiis doloribus, deleniti at veritatis sed aperiam autem deserunt distinctio qui odit nihil optio veniam, dignissimos illo!</p>
+            <button class="btn">Full recipe</button>
+         </div>
+         <div class="food">
+            <img src="/img/15.jpg" alt="food" width="300px" height="400px">
+            <p class="title">Poke bowl</p>
+            <ul class="list">
+               <li>1/2 pound sushi grade salmon</li>
+               <li>1/4 cup sliced raddish</li>
+               <li>2 tablespoons light mayonnaise</li>
+               <li>2 teaspoons sriracha sauce</li>
+               <li>1/2 medium Hass avocado, sliced</li>
+               <li>1 teaspoon black sesame seeds</li>
+            </ul>
+            <p class="btn_par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi natus, nemo iste officiis doloribus, deleniti at veritatis sed aperiam autem deserunt distinctio qui odit nihil optio veniam, dignissimos illo!</p>
+            <button class="btn">Full recipe</button>
+         </div>
+         <div class="food">
+            <img src="/img/16.jpg" alt="food" width="300px" height="400px">
+            <p class="title">Chocolate brownie</p>
+            <ul class="list">
+               <li>10 tablespoons unsalted butter</li>
+               <li>1 ¼ cups brown sugar</li>
+               <li>2 large cold eggs</li>
+               <li>1/2 cup all-purpose flour</li>
+               <li>3/4 cup unsweetened cocoa powder</li>
+               <li>1/2 cup dark chocholate</li>
+            </ul>
+            <p class="btn_par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi natus, nemo iste officiis doloribus, deleniti at veritatis sed aperiam autem deserunt distinctio qui odit nihil optio veniam, dignissimos illo!</p>
+            <button class="btn">Full recipe</button>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>
+</html>

@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+.countdown {
+    background-image: url(/media/2.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-size: cover;
+    background-color: #D3E0EA;
+}
+
+.slides {
+    background-color: #D3E0EA;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 80px;
+    padding: 30px;
+    font-family: 'Gelasio', serif;
+    color: #1B2A49;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.furniture {
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 30px;
+}
+
+h3:hover {
+    color: white;
+    transition-duration: 2s;
+}
+
+.days, .hours, .minutes, .seconds {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 40px;
+}
+
+.yellow {
+    font-size: 60px;
+    border: none;
+    font-family: 'Playfair Display SC', serif;
+    color: #FDB827;
+}
+
+button {
+    margin-left: 100px;
+    border: none;
+}
+
+.heading_container {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 60px;
+}
+
+.images_container {
+    display: flex;
+}
+
+.item {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Playfair Display SC', serif;
+    flex: 1;
+    margin: 5px;
+    position: relative;
+    transition-duration: 2s;
+}
+
+.images_title {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    color: #000000;
+    /* to hide the text from the slide */
+    opacity: 0; 
+}
+
+.images_par {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    color: #000000;
+    /* to hide the text from the slide */
+    opacity: 0;
+}
+
+.images_price {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: #000000;
+    background-color: #D3E0EA;
+    /* to hide the text from the slide */
+    opacity: 0;   
+}
+
+.image_one {
+    background-image: url('https://images.unsplash.com/photo-1554995207-c18c203602cb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fHNvZmF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+    }
+    
+.image_two {
+    background-image: url('https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c29mYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+    }
+    
+.image_three {
+    background-image: url('https://images.unsplash.com/photo-1560448204-603b3fc33ddc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fHNvZmF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+    }
+    
+.image_four {
+    background-image: url('https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGRpbmluZyUyMHRhYmxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+    }
+    
+.image_five {
+    background-image: url('https://images.unsplash.com/photo-1484101403633-562f891dc89a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c29mYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+    }
+    
+.image_six {
+    background-image: url('https://images.unsplash.com/photo-1582582621959-48d27397dc69?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YmVkfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+    }
+
+.selected {
+    flex: 4;
+}
+
+.selected .images_title {
+    font-size: 40px;
+    transition: all 1s ease-in;
+    /* to show the text on selected slide */
+    opacity: 1;
+}
+
+.selected .images_par {
+    font-size: 20px;
+    transition: all 1s ease-in;
+    /* to show the text on selected slide */
+    opacity: 1;
+}
+
+.selected .images_price {
+    font-size: 35px;
+    transition: all 1s ease-in;
+    /* to show the text on selected slide */
+    opacity: 1;
+}
+
+.label_text {
+    font-size: 35px;
+    font-family: 'Playfair Display SC', serif;
+    width: 300px;
+}
+
+.text_input {
+    border: none;
+    padding: 12px 20px;    
+    width: 300px;
+    padding: 20px;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.btn {
+    font-size: 35px;
+    font-family: 'Playfair Display SC', serif;
+    background-color: #D3E0EA;
+    border: solid black 3px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: #1B2A49;
+    color: #D3E0EA;
+    transition-duration: 2s;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+  }
+  
+  .fab {
+    padding: 10px;
+    color: black;
+    margin-bottom: 50px;
+  }
+
+@media all and (max-width: 800px) {
+h1 {
+    font-size: 40px;
+    padding: 5px;   
+}
+
+h3 {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.days, .hours, .minutes, .seconds {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.furniture {
+    height: 200px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.selected .images_title {
+    font-size: 20px;
+    transition: all 1s ease-in;
+    /* to show the text on selected slide */
+    opacity: 1;
+}
+
+.selected .images_par {
+    font-size: 10px;
+    transition: all 1s ease-in;
+    /* to show the text on selected slide */
+    opacity: 1;
+}
+
+.selected .images_price {
+    font-size: 20px;
+    transition: all 1s ease-in;
+    /* to show the text on selected slide */
+    opacity: 1;
+}
+
+.heading {
+    font-size: 30px;
+}
+
+.label_text {
+    font-size: 20px;
+}
+
+.btn {
+    font-size: 25px;
+}
+}
+
+@media all and (max-width: 500px) {
+.images_container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.images_price {
+    bottom: 10px;
+}
+}
+
+
+
+
+

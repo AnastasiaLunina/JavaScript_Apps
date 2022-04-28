@@ -1,0 +1,16 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live": "^0.1.25-beta.0",
+    "lodash": "^4.17.21",
+    "server": "^1.0.37"
+  }
+}

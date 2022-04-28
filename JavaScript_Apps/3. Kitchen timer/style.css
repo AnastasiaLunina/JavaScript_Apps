@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+/* font-family: 'Kanit', sans-serif; */
+
+html {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: url(media/calum-lewis-vA1L1jRTM70-unsplash.jpg) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+.container-header {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #a53418;
+  opacity: 0.8;
+  padding: 10px;
+  margin: 0;
+  width: 100vw;
+}
+
+#header {
+  font-family: 'Kanit', sans-serif;
+  font-size: 3rem;
+}
+
+.container_input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-top: 100px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Kanit', sans-serif;
+  font-size: 2rem;
+  margin: 0px 15px;
+}
+
+.minutes, .seconds {
+  height: 40px;
+  width: 70px;
+  border-radius: 10px;
+  font-family: 'Kanit', sans-serif;
+  font-size: 2rem;
+  margin: 0px 45px;
+}
+
+label {
+  margin: 20px;
+  padding: 3px 10px;
+}
+
+.colon_container {
+  margin-top: 90px;
+  font-size: 3.5rem;
+}
+
+.btn_par_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.button {
+  font-family: 'Kanit', sans-serif;
+  font-size: 2rem;
+  border-radius: 10px;
+  padding: 3px 10px;
+  cursor: pointer;
+  width: 200px;
+  outline: none;
+  padding: 0.5rem 1.8rem;
+  box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+  background-color: #a53418;
+  color: black;
+}
+
+button:hover {
+  filter: brightness(110%);
+}
+
+button:active {
+  transform: translate(0, 0.3rem);
+  box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
+}
+
+.countdown {
+  font-family: 'Kanit', sans-serif;
+  font-size: 3rem;
+}
+
+#player {
+  display: none;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  color: black;
+}
+
+.fab {
+  padding: 10px;
+  color: black;
+}
+
+@media only screen and (max-width: 800px) {
+  .input {
+    background-color: #a53418;
+    opacity: 0.8;
+    padding: 25px;
+    padding: 5px;
+    margin: 0 5px 0 5px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #header {
+    font-size: 2rem;
+  }
+
+  .input {
+    opacity: 0.8;
+    padding: 5px;
+    margin: 0 5px 0 5px;
+    font-size: 2rem;
+  }
+}

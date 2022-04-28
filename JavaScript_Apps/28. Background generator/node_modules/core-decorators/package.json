@@ -1,0 +1,57 @@
+{
+  "name": "core-decorators",
+  "version": "0.12.3",
+  "description": "Library of ES2016 (ES7) JavaScript decorators inspired by languages that come with built-ins like @​override, @​deprecate, @​autobind, @​mixin and more! Works great with React/Angular/more!",
+  "main": "lib/core-decorators.js",
+  "jsnext:main": "src/core-decorators.js",
+  "files": [
+    "lib",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "babel --out-dir lib src",
+    "build-bower": "babel-node scripts/build-bower.js",
+    "test": "npm run build && mocha --compilers js:babel/register --require babel/polyfill \"test/**/*.spec.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jayphelps/core-decorators.js.git"
+  },
+  "keywords": [
+    "es6",
+    "es7",
+    "es2015",
+    "es2016",
+    "babel",
+    "decorators",
+    "override",
+    "deprecated",
+    "java",
+    "annotations",
+    "autobind",
+    "react",
+    "angular",
+    "lodash",
+    "mixin",
+    "mixins"
+  ],
+  "author": "Jay Phelps <hello@jayphelps>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jayphelps/core-decorators.js/issues"
+  },
+  "homepage": "https://github.com/jayphelps/core-decorators.js",
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "camelcase": "^2.0.1",
+    "chai": "^3.2.0",
+    "glob": "^6.0.1",
+    "interop-require": "1.0.0",
+    "lodash": "4.10.0",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.4",
+    "sinon-chai": "^2.8.0"
+  }
+}

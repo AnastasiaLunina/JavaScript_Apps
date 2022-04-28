@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="img/icons8-cloud-64.png">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+      <title>Weather</title>
+   </head>
+   <body>
+      <video autoplay muted loop id="myVideo">
+         <source src="img/first.mp4" type="video/mp4">
+      </video>
+      <div class="container">
+         <div class="header">
+            <input type="text" class="input animation" placeholder="Please enter city" spellcheck="false">
+         </div>
+         <div class="when-where">
+            <p class="city animation">South Park, CO</p>
+            <p class="date animation">Sunday 27 July 2021</p>
+         </div>
+         <div class="now">
+            <p class="temperature animation">28°C</p>
+            <p id="show"></p>
+            <p class="feels-like animation">Feels like: 30°</p>
+            <p class="conditions animation">Sunny</p>
+            <p class="variations animation">Min: 25°</p>
+            <p class="variations max animation">Max: 28°</p>
+         </div>
+         <!-- <h2>Contact</h2> -->
+         <div class="contact-icons">
+            <a href="https://github.com/AnastasiaLunina" target="_blank"><i class="fab fa-github fa-xl animation"></i></a>
+            <a href="#home"><i class="fa-solid fa-house fab fa-xl animation"></i></a>
+         </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="script.js"></script>
+   </body>
+</html>

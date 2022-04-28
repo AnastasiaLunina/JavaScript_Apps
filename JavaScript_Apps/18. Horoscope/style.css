@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/vincenzo-malagoli-flfhAlEwDq4-unsplash.jpg);
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Cinzel', serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.container_heading_input {
+    width: 50%;
+    position: fixed;
+}
+
+.container_heading_sub {
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+.container_input_sub {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.sign {
+    margin-top: 180px;
+    margin-left: 55%;
+    border: 8px solid white;
+    padding: 20px;
+    height: 350px;
+    width: 250px;
+    border-radius: 15px;
+    background-image: url(img/nastya-dulhiier-DFrlRyLhCOQ-unsplash.jpg);
+    background-size: cover;
+    color: white;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    position: fixed;
+}
+
+.par {
+    display: none;
+}
+
+.heading_sub {
+    color: white;
+    font-size: 30px;
+}
+
+.btn {
+    width: 270px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Cinzel', serif;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.btn:hover {
+    background-color: #b45d00;
+}
+
+.color {
+    color: #b45d00;
+}
+
+.contact-icons {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+  
+  .fab {
+    padding: 10px;
+    color: #fff;
+  }
+
+@media all and (max-width: 800px) {
+    .heading_sub {
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .container_heading_input {
+        width: 100%;
+    }
+
+    .container_heading_sub {
+        margin-top: 100px;
+        margin-left: 130px;
+    }
+    
+    .container_input_sub {
+        margin-top: 50px;
+        margin-left: 120px;
+    }
+
+    .heading_sub {
+        font-size: 25px;
+    }
+
+    .sign {
+        margin-top: 350px;
+        margin-left: 22%;
+    }
+}

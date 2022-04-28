@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Cooking timer</title>
+      <link rel="icon" type="image/png" href="/media/timer.png">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="container" id="container_main">
+         <h1 class="container-header" id="header">Set the cooking timer</h1>
+      </div>
+      <div class="container_input">
+         <div class="input">
+            <label>Minutes</label>
+            <input class="minutes" type="number" placeholder="0" maxlength="" size="2" min="0" id="minutes">
+         </div>
+         <div class="colon_container">
+            <p class="colon">:</p>
+         </div>
+         <div class="input">
+            <label>Seconds</label>
+            <input class="seconds" type="number" placeholder="00" maxlength="4" size="2" min="0" id="seconds">
+         </div>
+      </div>
+      <div class="btn_par_container" id="btn_par">
+         <div class="button_container">
+            <button class="button">Start</button>
+         </div>
+         <div id="container-countdown" class="center column">
+            <p class="countdown" id="countdown">0 : 00</p>
+         </div>
+      </div>
+      <audio id="player" controls>
+         <source src="/media/mixkit-rooster-crowing-in-the-morning-2462.mp3" type="audio/mp3">
+      </audio>
+      <!-- <h2>Contact</h2> -->
+      <div class="contact-icons">
+         <a href="https://github.com/AnastasiaLunina" target="_blank"><i class="fab fa-github fa-xl"></i></a>
+            <a href="#home"><i class="fa-solid fa-house fab fa-xl"></i></a>
+      </div>
+      <!-- Script -->
+      <script src="script.js"></script>
+   </body>
+</html>

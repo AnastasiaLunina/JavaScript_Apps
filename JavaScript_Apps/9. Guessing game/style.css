@@ -1,0 +1,76 @@
+body {
+    background-image: url(/img/jonathan-petersson-a6N685qLsHQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    min-height: 100vh;
+    background-position: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+html {
+    overflow: hidden;
+}
+
+#container {
+    background-color: #F6F6F6;
+    border-radius: 4px;
+    opacity: 0.6;
+    width: 40%;
+    margin-top: 100px;
+    padding: 20px;
+    border: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+}
+
+#guess {
+    font-family: 'Roboto Mono', monospace;
+    padding: 10px;
+    width: 40%;
+    font-size: 15px;
+    border: none;
+}
+
+#btn {
+    background-color: black;
+    font-size: 15px;
+    border: none;
+    width: 43.2%;
+    padding: 10px;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 3s;
+    border-radius: 5px;
+    color: white;
+}
+
+#btn:hover {
+    background-color: red;
+    color: black;
+}
+
+.contact-icons {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 100px;
+  }
+  
+  .fab {
+    padding: 10px;
+    color: black;
+  }
+
+@media all and (max-width: 500px) {
+    #container {
+        min-width: 100%;
+        text-align: center;
+    }
+
+    .contact-icons {
+        margin-left: 200px;
+      }
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="media/armchair.png">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital@1&family=Playfair+Display+SC:ital,wght@1,700&display=swap" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+      <title>Furniture store</title>
+   </head>
+   <body>
+      <div class="countdown">
+         <div class="heading">
+            <h1>Skyline furniture</h1>
+         </div>
+         <div class="heading">
+            <h3>Grand opening soon</h3>
+         </div>
+         <div class="container">
+            <div class="furniture">
+               <div class="block">
+                  <h4 class="days"></h4>
+                  <h3>DAYS</h3>
+               </div>
+            </div>
+            <div class="furniture">
+               <div class="block">
+                  <h4 class="hours"></h4>
+                  <h3>HOURS</h3>
+               </div>
+            </div>
+            <div class="furniture">
+               <div class="block">
+                  <h4 class="minutes"></h4>
+                  <h3>MINUTES</h3>
+               </div>
+            </div>
+            <div class="furniture">
+               <div class="block">
+                  <h4 class="seconds"></h4>
+                  <h3>SECONDS</h3>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="slides">
+         <div class="images_container">
+            <div class="image_one item selected">
+               <h4 class="images_title">Berta</h4>
+               <p class="images_par">Interchangeable sectional sofa-bed with storage</p>
+               <p class="images_price">$5000</p>
+            </div>
+            <div class="image_two item">
+               <h4 class="images_title">Belgravia</h4>
+               <p class="images_par">Sofa-bed with memory-foam mattress</p>
+               <p class="images_price">$2000</p>
+            </div>
+            <div class="image_three item">
+               <h4 class="images_title">Foodien</h4>
+               <p class="images_par">Recycled teak end table</p>
+               <p class="images_price">$1000</p>
+            </div>
+            <div class="image_four item">
+               <h4 class="images_title">Family</h4>
+               <p class="images_par">Acacia wood dining table</p>
+               <p class="images_price">$2500</p>
+            </div>
+            <div class="image_five item">
+               <h4 class="images_title">Shean</h4>
+               <p class="images_par">Tufted velvet sofa-bed</p>
+               <p class="images_price">$2100</p>
+            </div>
+            <div class="image_six item">
+               <h4 class="images_title">Rabia</h4>
+               <p class="images_par">Tafted upholstered wingback queen size bed with storage</p>
+               <p class="images_price">$5000</p>
+            </div>
+         </div>
+         <div class="heading_container">
+            <h3 class="heading">Send us a message</h3>
+         </div>
+         <form
+            action="https://formspree.io/f/xyyowgez"
+            method="POST"
+            >
+            <input type="hidden" name="_language" value="es"/>
+            <div class="heading_container">
+               <label class="label_text">
+               Your email:
+               <input type="email" class="text_input" name="_replyto" placeholder="Your email..." required="">
+               </label>
+            </div>
+            <div class="heading_container">
+               <label class="label_text">
+               Your message:
+               <textarea class="text_input" name="message" placeholder="Type your message..." required=""></textarea>
+               <button class="btn" type="submit">Send</button>
+               </label>
+            </div>
+            <br>
+         </form>
+               <!-- <h2>Contact</h2> -->
+         <div class="contact-icons">
+            <a href="https://github.com/AnastasiaLunina" target="_blank"><i class="fab fa-github fa-xl"></i></a>
+            <a href="#home"><i class="fa-solid fa-house fab fa-xl"></i></a>
+         </div>
+      </div>
+
+      <script src="script.js"></script>
+   </body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "name": "outlet",
+  "version": "0.1.5",
+  "main": "lib/index.js",
+  "dependencies": {
+    "babel-runtime": "^6.11.6",
+    "eventemitter3": "^1.2.0",
+    "live-caller": "^0.1.12",
+    "lodash": "^4.15.0",
+    "uniqueid": "^1.0.0",
+    "zog": "^0.1.0"
+  },
+  "scripts": {
+    "gulp": "./node_modules/gulp/bin/gulp.js",
+    "test": "npm run gulp test"
+  },
+  "devDependencies": {
+    "babel-preset-live": "^0.1.0",
+    "babelator": "^0.2.20",
+    "benchmark": "^2.1.1",
+    "gulp": "gulpjs/gulp.git#4.0",
+    "understudy": "^4.1.0"
+  },
+  "license": "MIT",
+  "pre-push": [],
+  "shipmate": {
+    "skip": [
+      "lint"
+    ]
+  }
+}

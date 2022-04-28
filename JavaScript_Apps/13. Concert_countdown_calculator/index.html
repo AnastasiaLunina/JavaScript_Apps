@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="/img/electric-guitar.png">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+      <title>Concert countdown</title>
+   </head>
+   <body>
+      <div class="heading_container">
+         <h1 class="heading">THE SHELL</h1>
+         <p class="heading_par">New York City</p>
+      </div>
+      <div class="countdown_container">
+         <div class="container_mob">
+            <div class="container">
+               <div class="countdown">
+                  <h2 class="days"></h2>
+                  <p class="days_par">days</p>
+               </div>
+            </div>
+            <div class="container">
+               <div class="countdown">
+                  <h2 class="hours"></h2>
+                  <p class="days_par">hours</p>
+               </div>
+            </div>
+         </div>
+         <div class="container_mob">
+            <div class="container">
+               <div class="countdown">
+                  <h2 class="minutes"></h2>
+                  <p class="days_par">minutes</p>
+               </div>
+            </div>
+            <div class="container">
+               <div class="countdown">
+                  <h2 class="seconds"></h2>
+                  <p class="days_par">seconds</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="heading_container">
+         <p class="heading_par">Tickets pre-sale</p>
+      </div>
+      <div class="main">
+         <form>
+            <p class="par">Number of tickets</p>
+            <span>
+            <input type="text" placeholder="Tickets" class="people">
+            </span>
+            <button class="addTicket">Add a ticket</button>
+            <select id="ticket">
+               <option disabled selected>Select an option</option>
+               <option value="100">Dance floor $100</option>
+               <option value="450">VIP seats $450</option>
+            </select>
+            <button class="addTip">Add a service</button>
+            <select id="tip">
+               <option disabled selected>Select an option</option>
+               <option value="00.00">No thanks $0</option>
+               <option value="15.00">Band T-shirt $15</option>
+               <option value="30.00">Band poster with signatues $30</option>
+               <option value="50.00">CD with signature $50</option>
+               <option value="150.00">Picture with a band $150</option>
+            </select>
+            <button class="btn">Calculate</button>
+         </form>
+         <div class="showTotalAmountToPay">
+            <div class="billSplit">
+               <p>Ticket</p>
+               <span>$</span>
+               <span class="dividedBill"></span>
+               <p>per person</p>
+            </div>
+            <div class="totalAmount">
+               <p>Total</p>
+               <span>$</span>
+               <span class="billAndTip"></span>
+               <p>per order</p>
+            </div>
+         </div>
+      </div>
+      <!-- <h2>Contact</h2> -->
+      <div class="contact-icons">
+         <a href="https://github.com/AnastasiaLunina" target="_blank"><i class="fab fa-github fa-xl"></i></a>
+            <a href="#home"><i class="fa-solid fa-house fab fa-xl"></i></a>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/TextPlugin.min.js"></script>
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="script.js"></script>
+   </body>
+</html>

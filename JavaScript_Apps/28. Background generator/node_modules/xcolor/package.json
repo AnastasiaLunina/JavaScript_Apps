@@ -1,0 +1,31 @@
+{
+  "name": "xcolor",
+  "version": "0.1.0",
+  "author": "Charles Moncrief <cmoncrief@gmail.com>",
+  "description": "Extended colors and markup for the terminal",
+  "main": "lib/xcolor.js",
+  "scripts": {
+    "prepublish" : "cake build",
+    "test": "cake test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmoncrief/xcolor.git" 
+  },
+  "keywords": [
+    "color",
+    "ansi",
+    "terminal",
+    "xterm256",
+    "256",
+    "xterm",
+    "console",
+    "cli"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.8.1",
+    "coffee-script": "~1.4.0"
+  },
+  "engines": { "node" : "*"}
+}
