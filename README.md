@@ -68,10 +68,7 @@
 <p><em>HTML5, CSS3, JS Cooking timer. Simple to do list, user can add to do task, then cross out the "Done" ones. Mobile responsive.</em></p>
 
 - Picture in Picture - [Github](https://github.com/AnastasiaLunina/JavaScript_Apps/tree/main/JavaScript_Apps/23.%20Picture%20in%20Picture) | [View Live](https://js-pic-in-pic.netlify.app/)
-<p><em>HTML5, CSS3, JS. Picture in picture with help of 
-  ```js
-  MediaDevices.getUserMedia()
-  ```. Mobile responsive.</em></p>
+<p><em>HTML5, CSS3, JS. Picture in picture with help of MediaDevices.getUserMedia(). Mobile responsive.</em></p>
 
 - Dark and Light Theme - [Github](https://github.com/AnastasiaLunina/JavaScript_Apps/tree/main/JavaScript_Apps/25.%20Dark%20and%20light%20theme) | [View Live](https://js-dark-light.netlify.app/)
 <p><em>HTML5, CSS3, JS.  Switches the theme from dark to light. Switch added wit CSS3. Not mobile responsive.</em></p>
