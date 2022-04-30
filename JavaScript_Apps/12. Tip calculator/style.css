@@ -1,5 +1,5 @@
 body {
-    background-image: url(/img/nathan-dumlao-6VhPY27jdps-unsplash.jpg);
+    background-image: url(img/nathan-dumlao-6VhPY27jdps-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -35,7 +35,7 @@ h1 {
 .totalTip, .billSplit, .totalAmount {
     height: 130px;
     font-family: 'Montserrat', sans-serif;
-    background-image: url(/img/bob-ghost-ZmLXBRfjSpo-unsplash.jpg);
+    background-image: url(img/bob-ghost-ZmLXBRfjSpo-unsplash.jpg);
     background-size: cover;
     margin: 5px;
     padding: 20px;

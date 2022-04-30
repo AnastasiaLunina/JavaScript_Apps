@@ -3,7 +3,7 @@ body {
     overflow-x: hidden;
 }
 .countdown {
-    background-image: url(/media/2.jpg);
+    background-image: url(media/2.jpg);
     background-position: 0 0;
     background-repeat: no-repeat;
     height: 800px;

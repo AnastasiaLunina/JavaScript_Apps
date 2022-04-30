@@ -6,6 +6,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="icon" href="img/icons8-tree-64.png">
       <link rel="stylesheet" href="style.css">
+      <!-- AOS CSS -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
@@ -17,13 +19,13 @@
       <div id="particles-js"></div>
       <audio id='myAudio' src="img/song.mp3" loop="loop" autoplay="'allowed"></audio>
       <div class="heading">
-         <h1>Santa Claus is coming to town!</h1>
+         <h1 data-aos="fade-down">Santa Claus is coming to town!</h1>
       </div>
       <div class="button-container">
-         <img src="play_.png" alt="play button" id="myButton">
+         <img src="play_.png" alt="play button" id="myButton" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000" data-aos-offset="0">
       </div>
       <!-- <i id="myButton" class="fa-solid fa-play fa-4x"></i> -->
-      <div class="container">
+      <div class="container" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
          <div class="christmas">
             <div class="block">
                <h4 class="days"></h4>
@@ -50,6 +52,16 @@
          </div>
       </div>
       </div>
+      <!-- AOS.js -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+      AOS.init({
+         delay: 200,
+         duration: 1500,
+         once: false,
+         mirror: false,    
+      });
+      </script>
       <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
       <script src="script.js"></script>
    </body>

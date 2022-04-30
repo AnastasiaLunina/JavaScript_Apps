@@ -12,7 +12,7 @@
   }
   
   body {
-    background-image: url(/img/kieran-white-SBdmQcW8qag-unsplash.jpg);
+    background-image: url(img/kieran-white-SBdmQcW8qag-unsplash.jpg);
     background-repeat: repeat;
     background-size: cover;
     background-color: black;
@@ -41,7 +41,7 @@ h1 {
 }
 
 .christmas {
-    background-image: url(/img/sharon-mccutcheon-62vi3TG5EDg-unsplash.jpg);
+    background-image: url(img/sharon-mccutcheon-62vi3TG5EDg-unsplash.jpg);
     background-size: cover;
     opacity: .7;
     height: 300px;
@@ -75,7 +75,7 @@ h3 {
     border: none;
     font-family: 'Cinzel', serif;
     color: black;
-    background-image: url(/img/ian-schneider-PAykYb-8Er8-unsplash.jpg);
+    background-image: url(img/ian-schneider-PAykYb-8Er8-unsplash.jpg);
     background-repeat: repeat;
     background-size: cover;
     height: 100vh;

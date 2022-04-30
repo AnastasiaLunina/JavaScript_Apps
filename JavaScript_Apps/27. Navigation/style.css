@@ -17,7 +17,7 @@ body {
   margin: 0;
   /* background: #000; */
   font-family: Nunito, sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 /* --- Navigation Menu ------------------------------ */
@@ -234,7 +234,7 @@ section#home a {
   border-bottom: 1px solid var(--primaryColor);
 }
 
-/* section#about {
+section#about {
   background-color: var(--navColor2);
 }
 
@@ -248,7 +248,7 @@ section#projects {
 
 section#contact {
   background-color: var(--navColor5);
-} */
+}
 
 /* Media Query: Large Smartphone (Vertical) */
 @media (max-width: 600px) {
