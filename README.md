@@ -69,7 +69,7 @@
 
 - Picture in Picture - [Github](https://github.com/AnastasiaLunina/JavaScript_Apps/tree/main/JavaScript_Apps/23.%20Picture%20in%20Picture) | [View Live](https://js-pic-in-pic.netlify.app/)
 <p><em>HTML5, CSS3, JS. Picture in picture with help of 
-  ```javascript 
+  ```js
   MediaDevices.getUserMedia()
   ```. Mobile responsive.</em></p>
 
