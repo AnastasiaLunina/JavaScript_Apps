@@ -79,6 +79,6 @@
 - Navigation Menu - [Github](https://github.com/AnastasiaLunina/JavaScript_Apps/tree/main/JavaScript_Apps/27.%20Navigation) | [View Live](https://js-navigation-menu.netlify.app/)
 <p><em>HTML5, CSS3, JS. Cool navigation menu. CSS3 animation Mobile responsive.</em></p>
 
-- Background Generator - [Github](https://github.com/AnastasiaLunina/JavaScript_Apps/tree/main/JavaScript_Apps/28.%20Background%20generator) | [View Live]()
+- Background Generator - [Github](https://github.com/AnastasiaLunina/JavaScript_Apps/tree/main/JavaScript_Apps/28.%20Background%20generator) | [View Live](https://al-js-background-generator.netlify.app/)
 <p><em>HTML5, CSS3, JS. Background generator. user is able to choose two colors and create very own gradient background.</em></p>
 
